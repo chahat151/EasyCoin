@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'CeraGR';
+    src: url('CeraGR-Light.eot');
+    src: url('CeraGR-Light.eot?#iefix') format('embedded-opentype'),
+        url('CeraGR-Light.woff2') format('woff2'),
+        url('CeraGR-Light.woff') format('woff'),
+        url('CeraGR-Light.ttf') format('truetype'),
+        url('CeraGR-Light.svg#CeraGR-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CeraGR';
+    src: url('CeraGR-Bold.eot');
+    src: url('CeraGR-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CeraGR-Bold.woff2') format('woff2'),
+        url('CeraGR-Bold.woff') format('woff'),
+        url('CeraGR-Bold.ttf') format('truetype'),
+        url('CeraGR-Bold.svg#CeraGR-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CeraGR';
+    src: url('CeraGR-Black.eot');
+    src: url('CeraGR-Black.eot?#iefix') format('embedded-opentype'),
+        url('CeraGR-Black.woff2') format('woff2'),
+        url('CeraGR-Black.woff') format('woff'),
+        url('CeraGR-Black.ttf') format('truetype'),
+        url('CeraGR-Black.svg#CeraGR-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CeraGR';
+    src: url('CeraGR-Thin.eot');
+    src: url('CeraGR-Thin.eot?#iefix') format('embedded-opentype'),
+        url('CeraGR-Thin.woff2') format('woff2'),
+        url('CeraGR-Thin.woff') format('woff'),
+        url('CeraGR-Thin.ttf') format('truetype'),
+        url('CeraGR-Thin.svg#CeraGR-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CeraGR';
+    src: url('CeraGR-Regular.eot');
+    src: url('CeraGR-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CeraGR-Regular.woff2') format('woff2'),
+        url('CeraGR-Regular.woff') format('woff'),
+        url('CeraGR-Regular.ttf') format('truetype'),
+        url('CeraGR-Regular.svg#CeraGR-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

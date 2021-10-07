@@ -1,0 +1,213 @@
+/* 
+    1rem = 1em
+
+    1200px/16 = 75em
+    992px/16 = 62em
+    768px/16 = 48em
+    576px/16 = 36em
+*/
+
+/* ******************** */
+/* BELOW 1200px (LandScape Tablets) */
+/* ******************** */
+@media (max-width:74.9em){
+    html{
+        /* 8.7px / 16px = 0/543 */
+        font-size: 54.3%;  
+    }
+    .benefits-img-row {
+        padding: 7rem 0;
+    }
+    .play-btn {
+        width: 8.3rem !important;
+        transform: translate(-38px,-41px);
+    }
+    
+}
+/* ******************** */
+/* BELOW 992px (Tablets) */
+/* ******************** */
+@media (max-width:61.9em){
+    html{
+        /* 8.7px / 16px = 0/543 */
+        font-size: 53.1%;  
+    }
+    h1{
+        font-size: 3.9em;
+    }
+    /* --------------------- */
+    /* HERO SECTION */
+    /* --------------------- */
+    .hero{
+        height: 70vh;
+    }
+    /* --------------------- */
+    /* ABOUT SECTION */
+    /* --------------------- */
+    .about {
+        padding: 5.5em 0;
+    }
+    /* --------------------- */
+    /*  BENEFITS SECTION */
+    /* --------------------- */
+    .benefits-img-row {
+        padding: 5.5em 0;
+    }
+    .benefit-img{
+        width: 90%;
+    }
+    /* --------------------- */
+    /*  CONTACT-US SECTION */
+    /* --------------------- */
+    .contact-img {
+        width: 85%;
+    }
+
+}
+/* ******************** */
+/* BELOW 768px (Landscape Phones) */
+/* ******************** */
+@media (max-width:47.9em){
+
+    
+    h1, h2, h3, p{
+        text-align: center;
+    }
+    button {
+        display: block;
+        margin: 2.4em auto 0 auto;
+    }
+
+    /* --------------------- */
+    /*  HEADER SECTION */
+    /* --------------------- */
+	header{
+		position: relative;
+		background: #071c7e;
+		padding: 1.5rem 0;
+	}
+	.hero::before {
+		background: none;
+	}
+    .inner_header{
+        position: relative;;
+    }
+    .main-nav-list{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-color: #fff;
+        padding: 3rem;
+    }
+    .main-nav-list :not(:last-child) {
+        margin-right: 0;
+    }
+    .main-nav-list li{
+
+        margin-bottom: 2rem;
+    }
+    .main-nav-link:link, .main-nav-link:visited {
+        font-weight: bold;
+        color: #061c7e;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .active{
+        display: block;
+    }
+    /* --------------------- */
+    /* HERO SECTION */
+    /* --------------------- */
+	.hero {
+		height: auto;
+		padding: 50px 0;
+	}
+	.hero::before {
+		width: 100%;
+		clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+	}
+    .hero-imgbox {
+        margin-top: 3.4em;
+        text-align: center;
+    }
+    .hero-imgbox img {
+        width: 50%;
+    }
+	#mymodel {
+		padding: 15px;
+	}
+    /* --------------------- */
+    /* ABOUT SECTION */
+    /* --------------------- */
+    .about ul li {
+        padding-left: 6em;
+        padding-right: 4em;
+    }
+    .about ul li::before {
+        left: 44px;
+    }
+    .question1 {
+        margin-bottom: 5rem;
+    }
+    /* --------------------- */
+    /*  BENEFITS SECTION */
+    /* --------------------- */
+    .benefit {
+        font-size: 1.8rem;
+    }
+    .benefits-img-col{
+        text-align: center;
+        margin-bottom: 3.4em;
+    }
+    .benefit-img {
+        width: 35%;
+    }
+    /* --------------------- */
+    /*  ROADMAP SECTION */
+    /* --------------------- */
+    .section-roadmap{
+        padding: 3em 0;
+    }
+    /* --------------------- */
+    /*  CONTACT-US SECTION */
+    /* --------------------- */
+    .contact-imgbox {
+        text-align: center;
+        margin-bottom: 4.5rem;
+    }
+    .contact-img {
+        width: 35%;
+    }
+}
+/* ******************** */
+/* BELOW 576px (Potrait Phones)*/
+/* ******************** */
+@media (max-width:35.9em){
+    h2{
+        font-size: 3.2rem;
+    }
+	.about h2 {
+		text-align: left !important;
+	}
+	.about ul li {
+		padding-left: 2em;
+		padding-right: 0em;
+	}
+	.about ul li::before {
+		left: 0;
+	}
+    .secondary-nav-list{
+        justify-content: center;
+    }
+    .inner_footer .box:nth-child(2) {
+        order: 1;
+        max-width: 100%;
+        flex: 100%;
+    }
+    .inner_footer :nth-child(1) { order: 3; }
+    .inner_footer :nth-child(3) { order: 2; }
+}
